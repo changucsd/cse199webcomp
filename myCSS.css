@@ -1,0 +1,16 @@
+he-rating{
+  font-family: 'Ionicons';
+  font-size: 48px;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+he-rating >.star::after{
+  content: '\f3ae';
+  color: #777;
+}
+
+he-rating >.star.full::after{
+  content: '\f2fc';
+  color: #fd0;
+}
