@@ -32,8 +32,8 @@ class myRating extends HTMLElement {
 
     this.appendChild(newDiv);
 
-    var starList = document.createElement('div');
-    starList.id = 'starList';
+    // var starList = document.createElement('div');
+    // starList.id = 'starList';
 
     for(let i = 0; i < this.number; i ++){
 
@@ -43,7 +43,8 @@ class myRating extends HTMLElement {
       this.stars.push(icon);
     }
 
-    this.appendChild(starList);
+    // this.appendChild(starList);
+
     this.value = this.value;
   }
 
