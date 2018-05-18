@@ -8,7 +8,24 @@
      <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
    </head>
    <body>
-     <he-rating question= "Do you like JavaScript ?" color ="brown" number="6"></he-rating>
+     <he-rating question= "Do you like JavaScript ?" color ="green" number="6"></he-rating>
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+    var config = {
+    apiKey: "AIzaSyCH17Kqjz4J-TQYWbF44b1r5QPpNORkUj4",
+    authDomain: "cse-199.firebaseapp.com",
+    databaseURL: "https://cse-199.firebaseio.com",
+    projectId: "cse-199",
+    storageBucket: "cse-199.appspot.com",
+    messagingSenderId: "79728431622"
+    };
+    firebase.initializeApp(config);
+    </script>
+
      <script src= "my-rating.js"></script>
+
+
    </body>
 </html>
