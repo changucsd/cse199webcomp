@@ -2,7 +2,7 @@
   "name": "my-rating",
   "version": "1.0.0",
   "description": "He's web comp",
-  "main": "my-rating.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,9 +11,12 @@
     "url": "git+https://github.com/changucsd/cse199webcomp.git"
   },
   "author": "He Chang",
-  "license": "ISC",
+  "license": "UCSD",
   "bugs": {
     "url": "https://github.com/changucsd/cse199webcomp/issues"
   },
-  "homepage": "https://github.com/changucsd/cse199webcomp#readme"
+  "homepage": "https://github.com/changucsd/cse199webcomp#readme",
+  "dependencies": {
+    "firebase-tools": "^3.18.4"
+  }
 }
