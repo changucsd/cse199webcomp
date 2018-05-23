@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/changucsd/cse199webcomp#readme",
   "dependencies": {
-    "firebase-tools": "^3.18.4"
+    "firebase-tools": "^3.18.4",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
   }
 }
