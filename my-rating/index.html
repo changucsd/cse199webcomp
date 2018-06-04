@@ -9,21 +9,21 @@
    </head>
    <body>
      <he-rating question= "Do you like JavaScript ?" color ="green" number="5"></he-rating>
-
-<!--     <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script> -->
-<!--     <script>
-      // Initialize Firebase
-    var config = {
-    apiKey: "AIzaSyCH17Kqjz4J-TQYWbF44b1r5QPpNORkUj4",
-    authDomain: "cse-199.firebaseapp.com",
-    databaseURL: "https://cse-199.firebaseio.com",
-    projectId: "cse-199",
-    storageBucket: "cse-199.appspot.com",
-    messagingSenderId: "79728431622"
-    };
-    firebase.initializeApp(config);
-    </script> -->
     <script src= "my-rating.js"></script>
+
+  <!--   unit test -->
+    <div id="mocha"></div>
+    <script src="node_modules/mocha/mocha.js"></script>
+    <script src="node_modules/chai/chai.js"></script>
+    <script>mocha.setup('bdd')</script>
+
+    <!-- load code you want to test here -->
+
+    <!-- load your test files here -->
+
+    <script>
+      mocha.run();
+    </script>
 
    </body>
 </html>

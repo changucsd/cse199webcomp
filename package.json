@@ -4,7 +4,7 @@
   "description": "He's web comp",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,10 @@
   "homepage": "https://github.com/changucsd/cse199webcomp#readme",
   "dependencies": {
     "firebase-tools": "^3.18.4",
-    "mocha": "^5.2.0"
+    "selenium-webdriver": "^4.0.0-alpha.1"
   },
-  "scripts": {
-    "test": "mocha"
+  "devDependencies": {
+    "jest": "^23.0.1",
+    "mocha": "^5.2.0"
   }
 }

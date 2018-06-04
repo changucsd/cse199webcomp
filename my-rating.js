@@ -59,7 +59,7 @@ class myRating extends HTMLElement {
 
     super(); // get all your goodies from HTML elements for FREE
 
-    this.number = this.number;
+    this.number = this.number ;
     this.addEventListener('mousemove', e => {
         let box = this.getBoundingClientRect(),
             question_box = document.getElementById("question").getBoundingClientRect(),
@@ -112,3 +112,4 @@ class myRating extends HTMLElement {
 
 // window.onload = function() { ratingWidget.init(); };
 window.customElements.define('he-rating', myRating);
+// module.exports = myRating;
